@@ -43,7 +43,7 @@ border-left: 0 solid white;
 border-right: 0 solid white;
 }
 ::-webkit-scrollbar-thumb {
-background:linear-gradient(30deg,#41347e 50%, #ff5502 100%);
+background:linear-gradient(30deg,#23e0de 50%, #ff4b8f 100%);
 width: 0;
 height: 25%;
 transition: .5s ease;
@@ -86,8 +86,8 @@ a {
 }
 
 /*Colors*/
-.pink-color{color: #ff5502;}
-.purple-color{color: #41347e;}
+.pink-color{color: #ff4b8f;}
+.purple-color{color: #23e0de;}
 
 /*Button*/
 .btn {
@@ -127,8 +127,8 @@ border-radius: 50px;
 
 /*Button hover*/
 .btn.btn-hvr-pink:hover {
-  background-color: #ff5502; 
-  border: 1px solid #ff5502;
+  background-color: #ff4b8f; 
+  border: 1px solid #ff4b8f;
   color: #fff;
 }
 .btn.btn-hvr-black:hover {
@@ -153,7 +153,7 @@ border-radius: 50px;
   overflow: hidden;
   transition: .8s ease;
   text-decoration: none;
-  background-image:linear-gradient(to right,#ff5502 0%, #41347e 50%, #ff5502 100%);
+  background-image:linear-gradient(to right,#ff4b8f 0%, #23e0de 50%, #ff4b8f 100%);
   background-size: 200% auto;
 }
 
@@ -186,7 +186,7 @@ border-radius: 50px;
 /*Social icons Hover*/
 /*Hover Style 1*/
  .hover:hover{color: #fff !important; transition: 0.5s ease; 
-  background: linear-gradient(to bottom, #ff5502 0%, #41347e 93%);}
+  background: linear-gradient(to bottom, #ff4b8f 0%, #23e0de 93%);}
  
 /*Social icons background hover*/
 .facebook-hover:hover{color: #fff; transition: 0.5s ease; background-color: #4267B2;}
@@ -270,7 +270,7 @@ header .navbar .navbar-nav{
 }
 header .navbar .navbar-nav .nav-link.active {
   transition: all .6s ease;
-  color: #ff5502;
+  color: #ff4b8f;
 }
 
 header .navbar .navbar-nav .nav-link:hover {
@@ -282,7 +282,7 @@ header .navbar .navbar-nav .nav-link:hover {
 /*Navlink Hover*/
 header .navbar .navbar-nav .nav-link.active:after {
   width: 100%;
-  background: linear-gradient(to right, #ff5502 0%, #41347e 45%);
+  background: linear-gradient(to right, #ff4b8f 0%, #23e0de 45%);
 }
 
 header .navbar .navbar-nav .nav-link:hover {
@@ -306,7 +306,7 @@ header .navbar .navbar-nav .nav-link:after {
 
 header .navbar .navbar-nav .nav-link:hover:after {
   width: 100%;
-  background: linear-gradient(to right, #ff5502 0%, #41347e 45%);
+  background: linear-gradient(to right, #ff4b8f 0%, #23e0de 45%);
 }
 
 /*side menu button*/
@@ -397,7 +397,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
-  background:#41347e;
+  background:#23e0de;
 }
 
 /* ===================================
@@ -495,7 +495,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   position: absolute;
   display: inline-block;
   transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
-  background: linear-gradient(to right, #ff5502 40%, #41347e 60%);
+  background: linear-gradient(to right, #ff4b8f 40%, #23e0de 60%);
 }
 
 .side-nav .navbar-nav .nav-link:hover::after,
@@ -585,7 +585,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   height: 28px;
   width: 2px;
   /*background: #fff;*/
-  background: linear-gradient(to right, #ff5502, #41347e);
+  background: linear-gradient(to right, #ff4b8f, #23e0de);
   top: 6px;
 }
 
@@ -683,7 +683,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   font-weight: 700;
 }
 .banner-section .img-section .text-section .heading span{
-   background: linear-gradient(to right, #ff5502 0%, #41347e 70%);
+   background: linear-gradient(to right, #ff4b8f 0%, #23e0de 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -720,7 +720,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   padding-right: 70px;
 } 
 .about-section .text-section .heading span{
-  color: #41347e;
+  color: #23e0de;
 }
 
 .about-section .text-section .about-check-list ul{
@@ -737,7 +737,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 }
 
 .about-section .text-section .about-check-list ul li i{
-  background: linear-gradient(to right, #ff5502 0%, #41347e 70%);
+  background: linear-gradient(to right, #ff4b8f 0%, #23e0de 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 15px;
@@ -773,7 +773,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #ff5502 10%, #41347e 90%);
+  background-image: linear-gradient(to right, #ff4b8f 10%, #23e0de 90%);
   transition: opacity 0.5s ease-in-out;
   z-index: 2;
   opacity: 0;
@@ -793,7 +793,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   font-size: 40px;
   z-index: 3;
   position: relative;
-  background: linear-gradient(to right, #ff5502 30%, #41347e 70%);
+  background: linear-gradient(to right, #ff4b8f 30%, #23e0de 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -840,7 +840,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   text-align:center;
 }
 .team-section .row-1 .heading span{
-  color: #ff5502;
+  color: #ff4b8f;
 }
 /*Row-2*/
 .team-section .row-2 .team-col{
@@ -859,7 +859,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   margin-bottom: 10px;
 }
 .team-section .row-2 .team-col .text-column .subheading{
-  background: linear-gradient(to right, #ff5502 30%, #41347e 70%);
+  background: linear-gradient(to right, #ff4b8f 30%, #23e0de 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -903,7 +903,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   text-align: center;
 }
 .work-section .row-1 .heading span{
-  color: #41347e;
+  color: #23e0de;
 }
 
 /*Portfolio Start*/
@@ -918,7 +918,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 }
 
 .work-section .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap:hover {
-  background-color: #41347e;
+  background-color: #23e0de;
   opacity: 0.8;
 }
 
@@ -992,7 +992,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 }
 
 .counter-section .counter-text .gradient-border{
-  border-image-source: linear-gradient(to right, #ff5502, #41347e);
+  border-image-source: linear-gradient(to right, #ff4b8f, #23e0de);
 }
 
 .counter-section .counter-text .text{
@@ -1007,7 +1007,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 .counter-section .num_counter .counter i {
   font-size: 36px;
   margin-bottom: 35px;
-   background: linear-gradient(to right, #ff5502 40%, #41347e 80%);
+   background: linear-gradient(to right, #ff4b8f 40%, #23e0de 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1024,7 +1024,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 }
 
 .counter-section .num_counter .counter:hover .subheading{
- background: linear-gradient(to right, #000 20%, #ff5502 40%, #41347e 70%, #000 80%);
+ background: linear-gradient(to right, #000 20%, #ff4b8f 40%, #23e0de 70%, #000 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% auto;
@@ -1052,7 +1052,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 .testimonial-section .testimonial-carousel .owl-item .heading{
   font-size: 16px;
   font-weight: 500;
-  background: linear-gradient(to right, #ff5502 40%, #41347e 60%);
+  background: linear-gradient(to right, #ff4b8f 40%, #23e0de 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1114,7 +1114,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 }
 
 .pricing-section .single-price .price-tag .heading .gradient{
-  background: linear-gradient(to right, #ff5502 20%, #41347e 100%);
+  background: linear-gradient(to right, #ff4b8f 20%, #23e0de 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 62px;
@@ -1151,7 +1151,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
 
 /*Active Class*/
 .pricing-section .single-price.active {
-   background-image: linear-gradient(to right, #ff5502 20%, #41347e 100%);
+   background-image: linear-gradient(to right, #ff4b8f 20%, #23e0de 100%);
 }
 .pricing-section .single-price.active span{
   color: #fff;
@@ -1229,7 +1229,7 @@ header .navbar .navbar-nav .nav-link:hover:after {
   margin-bottom: 25px;
 }
 .contact-section .text-section .heading{
-   background: linear-gradient(to right, #ff5502 0%, #41347e 45%);
+   background: linear-gradient(to right, #ff4b8f 0%, #23e0de 45%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 30px; 
@@ -1352,7 +1352,7 @@ footer .text {
   transition:all 0.3s ease;
 }
 .page-breadcrumb li i{
-  color: #ff5502;
+  color: #ff4b8f;
 }
 
 /*MAIN PAGE START*/
@@ -1403,7 +1403,7 @@ footer .text {
   position: absolute;
   transition: all 0.3s ease;
   /*background-color:  #b82619;*/
-  background-image:linear-gradient(to right, #ff5502 30%, #41347e 100%);
+  background-image:linear-gradient(to right, #ff4b8f 30%, #23e0de 100%);
 }
 .hover-effect:hover .standaloneoverlay {
   opacity: .4;
@@ -1415,7 +1415,7 @@ footer .text {
   right: 0;
   cursor: pointer;
   /*background-color: #b82619;*/
-  background-image:linear-gradient(to right, #ff5502 30%, #41347e 100%);
+  background-image:linear-gradient(to right, #ff4b8f 30%, #23e0de 100%);
 }
 .hover-effect:hover .overlayBottom {
   height: 100%;
@@ -1520,7 +1520,7 @@ header .nav-logo .logo{
   height: 70px;
   padding: 0;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-  background: linear-gradient(to right, #ff5502 0%, #41347e 70%);
+  background: linear-gradient(to right, #ff4b8f 0%, #23e0de 70%);
 }
 .header-appear .sidemenu_btn{
   left: 92%;
@@ -1739,7 +1739,7 @@ footer .text {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #41347e; /* Set a background color */
+  background-color: #23e0de; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 12px; /* Some padding */
